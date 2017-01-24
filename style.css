@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif; }
+
+.chart {
+  position: relative;
+  width: 100%;
+  height: 96vh;
+  font-weight: bold; }
+
+.letter-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+#letter-box-1 {
+  width: 100%;
+  height: 100%;
+  font-family: serif; }
+
+#letter-box-2 {
+  width: 60%;
+  height: 66%; }
+
+#letter-box-3 {
+  width: 38%;
+  height: 48%; }
+
+#letter-box-4 {
+  width: 30%;
+  height: 38%; }
+
+#letter-box-5 {
+  width: 18%;
+  height: 20%; }
+
+.letter-row {
+  display: flex;
+  justify-content: space-between; }
+
+.singleton {
+  justify-content: center; }
+
+#focus-point {
+  width: 5%;
+  height: 5%; }
+
+img {
+  max-width: 100%; }
+
+.large-letters {
+  font-size: 20vh; }
+
+.medium-letters {
+  font-size: 10vh; }
+
+.small-letters {
+  font-size: 5vh; }
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
