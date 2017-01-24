@@ -24,7 +24,7 @@ function scrambleLetters () {
 scrambleLetters();
 
 var scrambleBtn = document.createElement('button');
-scrambleBtn.attributes.type = 'button';
+scrambleBtn.setAttribute('type', 'button');
 scrambleBtn.name = 'scramble';
 scrambleBtn.textContent = 'Scramble letters';
 scrambleBtn.addEventListener('click', scrambleLetters);
