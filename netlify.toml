@@ -10,3 +10,5 @@
 [context.test-contexts.build]
   command = "echo test-context branch"
 
+[[context.test-contexts.plugins]]
+  package = "netlify-plugin-a11y"
