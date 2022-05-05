@@ -1,2 +1,12 @@
 [context.production.build]
   command = "echo production"
+
+[context.deploy-preview.build]
+  command = "echo deploy-preview"
+
+[context.branch-deploy.build]
+  command = "echo branch-deploy"
+  
+[context.test-context.build]
+  command = "echo test-context branch"
+
