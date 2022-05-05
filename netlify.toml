@@ -7,6 +7,6 @@
 [context.branch-deploy.build]
   command = "echo branch-deploy"
   
-[context.test-context.build]
+[context.test-contexts.build]
   command = "echo test-context branch"
 
