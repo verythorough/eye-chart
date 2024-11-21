@@ -1,4 +1,4 @@
-var letterArray = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''),
+var letterArray = 'ABCDEFGHI'.split(''),
     numLetters = letterArray.length;
 
 //Fisher-Yates shuffle
